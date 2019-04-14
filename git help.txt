@@ -1,0 +1,71 @@
+Git Hub
+======
+Git and GitHub 1 - Introduction
+=======================
+Today we will learn
+———————————
+1. What is GIT
+2. What is GIT HUB
+3. Is GIT related to GIT HUB
+4. A simple workflow
+
+GIT - VCS - version control system
+ - to track changes in files / folders
+        - to collaborate in teams
+ - free and open source
+
+Centralised VCS    |    Distributed VCS
+
+GIT = DVCS
+
+——————————————————
+
+GIT HUB - website to upload your repositories online
+  - provides backup 
+  - provides visual interface to your repo
+  - makes collaboration easier
+
+GIT  !=  GIT HUB
+
+
+
+
+Git and GitHub Beginner Tutorial 3 - Getting started - Install Git (windows)
+========================================================
+
+Today we will learn
+———————————
+
+1. How to install Git on windows
+2. Adding project/files to git for tracking
+3. Git commands
+4. Pushing project to remote repository(github)
+_______________________________
+
+Step 1 : check if git is already installed
+             git --version
+
+Step 2 : download and install git
+
+Step 3 : add your project to git
+
+Step 4 : commands
+
+git config --global user.email "pradeepch82@gmail.com"
+git config --global user.name "pradeepch82"
+git config --global http.sslverify false
+git config --global http.proxy http://<username>:<password>@10.119.32.71:8080
+git config --global https.proxy https://<username>:<password>@2004@10.119.32.71:8080
+
+  - git init
+  - git status
+  - git add
+  - git commit -m “…..”
+  - git remote add origin https://github.com/pradeepch82/jenkins-reposiotry
+  - git log
+  - git —help
+
+Step 5 : adding project to remote repository (github)
+
+ - git push -u origin master
+ 
